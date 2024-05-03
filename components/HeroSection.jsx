@@ -16,7 +16,7 @@ const HeroSection = () => {
       <nav className="py-4 md:py-10 mb-12 flex justify-between items-center dark:text-white ml-4 pl-4">
         <CustomTooltip content="Made with Next.js & TailwindCSS">
           <h1 className="font-burtons text-md md:text-lg lg:text-3xl mr-4 hover:cursor-vertical-text">
-            Mikail&apos;s Portofolio
+            Mikail&apos;s Portfolio
           </h1>
         </CustomTooltip>
         <ul className="flex flex-row-reverse items-center justify-evenly md:justify-start md:gap-4 lg:gap-12 w-full lg:w-1/2 h-12 lg:h-16">
