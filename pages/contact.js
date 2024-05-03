@@ -50,7 +50,7 @@ const Contact = () => {
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="font-burtons text-xl">Mikail&apos;s Portofolio</h1>
+            <h1 className="font-burtons text-xl">Mikail&apos;s Portfolio</h1>
             <ul className="flex items-center gap-4">
               <NavButton>
                 <Link href="/">
