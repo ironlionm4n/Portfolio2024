@@ -1,6 +1,6 @@
 import "../styles/globals.css";
 import React, { useEffect } from "react";
-import { DarkModeProvider } from "./context/DarkMode";
+import { DarkModeProvider } from "../context/DarkMode";
 import emailjs from "@emailjs/browser";
 import Script from "next/script";
 

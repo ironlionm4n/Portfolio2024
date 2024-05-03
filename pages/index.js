@@ -22,16 +22,16 @@ import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
 import itch from "../public/itch.png";
 import Link from "next/link";
-import { useDarkMode } from "./context/DarkMode";
-import NavButton from "./components/NavButton";
-import SwitchTheme from "./components/SwitchTheme";
+import { useDarkMode } from "../context/DarkMode";
+import NavButton from "../components/NavButton";
+import SwitchTheme from "../components/SwitchTheme";
 import usePopcorn from "../public/usepopcorn.png";
 import pizzaproj from "../public/pizzaproj.png";
 
 import { Badge, Tooltip } from "flowbite-react";
-import CustomTooltip from "./components/CustomTooltip";
-import HeroSection from "./components/HeroSection";
-import ProjectCard from "./components/ProjectCard";
+import CustomTooltip from "../components/CustomTooltip";
+import HeroSection from "../components/HeroSection";
+import ProjectCard from "../components/ProjectCard";
 
 export default function Home() {
   const { darkMode, setDarkMode } = useDarkMode();

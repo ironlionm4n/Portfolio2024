@@ -1,11 +1,10 @@
 import Head from "next/head";
 import Link from "next/link";
 import React, { useState } from "react";
-import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
-import { useDarkMode } from "./context/DarkMode";
+import { useDarkMode } from "../context/DarkMode";
 import emailjs from "@emailjs/browser";
-import NavButton from "./components/NavButton";
-import SwitchTheme from "./components/SwitchTheme";
+import NavButton from "../components/NavButton";
+import SwitchTheme from "../components/SwitchTheme";
 
 const Contact = () => {
   const { darkMode, setDarkMode } = useDarkMode();

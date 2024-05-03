@@ -1,6 +1,6 @@
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 import { FaSquareXTwitter } from "react-icons/fa6";
-import profile from "../../public/ProfilePicture.jpg";
+import profile from "../public/ProfilePicture.jpg";
 import Image from "next/image";
 import Link from "next/link";
 import { useDarkMode } from "../context/DarkMode";
