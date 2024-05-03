@@ -55,9 +55,9 @@ export default function Home() {
               how to create games. I have experience with{" "}
               <span className="text-teal-500">
                 Unity, C#, JavaScript, React, and React Native
-              </span>{" "}
-              I have previous work experience in positions of leadership in
-              operations for a restaurant and a logistics company. This has
+              </span>
+              {". "}I have previous work experience in positions of leadership
+              in operations for a restaurant and a logistics company. This has
               equipped me with the skills to work in a fast-paced environment,
               manage multiple tasks, and work with a team to achieve a common
               goal.
