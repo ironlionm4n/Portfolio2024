@@ -15,7 +15,7 @@ const HeroSection = () => {
     <section className="min-h-screen">
       <nav className="py-4 md:py-10 mb-12 flex justify-between items-center dark:text-white ml-4 pl-4">
         <CustomTooltip content="Made with Next.js & TailwindCSS">
-          <h1 className="font-burtons text-md md:text-lg mr-4 hover:cursor-vertical-text">
+          <h1 className="font-burtons text-md md:text-lg lg:text-3xl mr-4 hover:cursor-vertical-text">
             Mikail&apos;s Portofolio
           </h1>
         </CustomTooltip>
@@ -26,11 +26,11 @@ const HeroSection = () => {
               <a>Contact Me</a>
             </Link>
           </NavButton>
-          <li className="bg-gradient-to-r hover:from-cyan-600 hover:to-teal-800 from-cyan-500 text-md lg:text-lg to-teal-500 text-white border-none rounded-md flex justify-center items-center text-center p-2  font-semibold cursor-pointer">
+          <NavButton>
             <a href="./resume.pdf" target="blank" download={false}>
               Resume
             </a>
-          </li>
+          </NavButton>
         </ul>
       </nav>
       <div className="text-center p-2 md:p-4 lg:p-6 pb-10">

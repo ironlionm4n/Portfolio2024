@@ -57,7 +57,7 @@ export default function Home() {
                 Unity, C#, JavaScript, React, and React Native
               </span>{" "}
               I have previous work experience in positions of leadership in
-              operations for a restaurant and logistics company. This has
+              operations for a restaurant and a logistics company. This has
               equipped me with the skills to work in a fast-paced environment,
               manage multiple tasks, and work with a team to achieve a common
               goal.
@@ -103,7 +103,7 @@ export default function Home() {
               </p>
               <div className="mt-8 hover:cursor-pointer">
                 <a
-                  className="py-3 text-teal-300 bg-gray-700 rounded-2xl px-4"
+                  className="py-3 text-teal-300 bg-gray-700 rounded-2xl px-4 text-lg lg:text-xl"
                   href="https://ironlionm4n.itch.io/"
                   target="blank"
                 >
@@ -142,7 +142,7 @@ export default function Home() {
               </div>
               <div className="mt-8 hover:cursor-pointer">
                 <Link href="/contact">
-                  <a className="py-3 text-teal-300 bg-gray-700 rounded-2xl px-4">
+                  <a className="py-3 text-teal-300 bg-gray-700 rounded-2xl px-4 text-lg lg:text-xl">
                     Contact Me
                   </a>
                 </Link>
@@ -155,20 +155,20 @@ export default function Home() {
               <h3 className="text-xl lg:text-2xl font-medium pt-8 pb-2 ">
                 Seeking Full-Time Employment
               </h3>
-              <p className="py-2">
+              <p className="py-2 text-lg lg:text-xl">
                 I am actively seeking full-time employment as a Software
                 Developer in the Atlanta area. I am open to remote work as well.
                 I have experience with React, React Native, .NET, Entity
                 Framework Core, and Unity. Willing to learn anything new and
                 consider myself a quick learner.
               </p>
-              <h4 className="py-4 text-teal-600">
+              <h4 className="py-4 text-teal-600 text-lg lg:text-xl">
                 If you think I have any skills that fit your needs, I encourage
                 you to reach out to me.
               </h4>
               <div className="mt-8 hover:cursor-pointer">
                 <Link href="/contact">
-                  <a className="py-3 text-teal-300 bg-gray-700 rounded-2xl px-4">
+                  <a className="py-3 text-teal-300 bg-gray-700 rounded-2xl px-4 text-lg lg:text-xl">
                     Contact Me
                   </a>
                 </Link>
@@ -204,8 +204,8 @@ export default function Home() {
             <div className=" bg-black dark:bg-white w-full p-1 rounded-xl my-4 shadow-md shadow-gray-500 dark:shadow-teal-500"></div>
           </div>
         </section>
-        <section className="container flex justify-center items-center py-10">
-          <p className="text-xl lg:text-4xl font-poppins italic text-slate-600 dark:text-teal-300 font-bold hover:scale-150 transition-all">
+        <section className="flex justify-center items-center">
+          <p className="text-xl lg:text-4xl font-poppins italic text-slate-600 dark:text-teal-300 font-bold my-4 py-2 hover:scale-110 transition-all">
             More Content Coming Soon!
           </p>
         </section>
