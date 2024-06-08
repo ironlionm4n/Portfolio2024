@@ -183,10 +183,10 @@ export default function Home() {
               Since my beginnings as a freelance developer, I have worked with
               <span className="text-teal-500"> individuals </span>, and
               consulted for <span className="text-teal-500">startups </span>,
-              collaborating with talanted people to create digital products for
+              collaborating with talented people to create digital products for
               both business and consumer use. I offer from a wide range of
               services, including direct development, software support, trouble
-              shooting, testing, and teaching.
+              shooting, quality assurance, and teaching.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 px-2 m-2 lg:px-24 lg:mx-24">

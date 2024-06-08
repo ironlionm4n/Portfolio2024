@@ -38,12 +38,14 @@ const HeroSection = () => {
           Hi, I&apos;m Mikail Miller!
         </h2>
         <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-          Unity Game Developer & Educator | Apprentice Full-Stack Developer
+          Unity Game Developer & Educator | Full-Stack Developer
         </h3>
-        <p className="text-md lg:text-2xl py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-2xl mx-auto md:text-lg">
+        <p className="text-md lg:text-2xl py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-2xl md:max-w-4xl mx-auto md:text-lg">
           I&apos;m a Unity Game Developer and Educator with a passion for
           teaching and creating games. I&apos;m also an aspiring full-stack
-          developer with a drive to learn how to create high quality software.
+          developer with experience using React, React Native, and .NET to
+          deliver software solutions. I possess a drive to learn how to create
+          high quality software.
         </p>
         <div className=" bg-black dark:bg-white w-full p-1 rounded-xl my-4 shadow-md shadow-gray-500 dark:shadow-teal-500"></div>
         <h4 className="dark:text-white p-2 text-md lg:text-2xl md:text-lg">
@@ -51,6 +53,13 @@ const HeroSection = () => {
         </h4>
 
         <div className="text-3xl md:text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
+          <a
+            className=" text-black dark:text-white"
+            href="https://github.com/ironlionm4n"
+            target="blank"
+          >
+            <AiFillGithub />
+          </a>
           <a
             href="https://twitter.com/ironliondev"
             className=" text-black dark:text-white"
@@ -71,13 +80,6 @@ const HeroSection = () => {
             target="blank"
           >
             <AiFillInstagram className=" text-black dark:text-white" />
-          </a>
-          <a
-            className=" text-black dark:text-white"
-            href="https://github.com/ironlionm4n"
-            target="blank"
-          >
-            <AiFillGithub />
           </a>
         </div>
         <p className="dark:text-white text-md lg:text-2xl py-2 mt-2">
