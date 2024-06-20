@@ -1,35 +1,13 @@
 import Head from "next/head";
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
-import {
-  FaDivide,
-  FaInstagram,
-  FaRegHandshake,
-  FaSquareXTwitter,
-  FaUnity,
-} from "react-icons/fa6";
-import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
-import { useContext, useState } from "react";
-import profile from "../public/ProfilePicture.jpg";
-import code from "../public/code.png";
-import design from "../public/design.png";
-import consulting from "../public/consulting.png";
+import { FaRegHandshake, FaUnity } from "react-icons/fa6";
 import Image from "next/image";
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
 import itch from "../public/itch.png";
 import Link from "next/link";
 import { useDarkMode } from "../context/DarkMode";
-import NavButton from "../components/NavButton";
-import SwitchTheme from "../components/SwitchTheme";
 import usePopcorn from "../public/usepopcorn.png";
 import pizzaproj from "../public/pizzaproj.png";
+import supabaseRQ from "../public/supabaseRQ.png";
 
-import { Badge, Tooltip } from "flowbite-react";
-import CustomTooltip from "../components/CustomTooltip";
 import HeroSection from "../components/HeroSection";
 import ProjectCard from "../components/ProjectCard";
 
@@ -178,18 +156,23 @@ export default function Home() {
         </section>
         <section className="py-10">
           <div>
-            <h3 className="text-4xl py-1 dark:text-white ">Portfolio</h3>
+            <h3 className="text-4xl py-1 dark:text-white ">
+              Front End Projects
+            </h3>
             <p className="text-md md:text-2xl py-2 leading-8 text-gray-800 dark:text-gray-200 text-center">
-              Since my beginnings as a freelance developer, I have worked with
-              <span className="text-teal-500"> individuals </span>, and
-              consulted for <span className="text-teal-500">startups </span>,
-              collaborating with talented people to create digital products for
-              both business and consumer use. I offer from a wide range of
-              services, including direct development, software support, trouble
-              shooting, quality assurance, and teaching.
+              Here are some of the projects I have developed to sharpen my
+              frontend and backend skills. I am dedicated to ongoing learning
+              and look forward to updating this section with more projects as I
+              finish them.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 px-2 m-2 lg:px-24 lg:mx-24">
+            <ProjectCard
+              imageSrc={supabaseRQ}
+              badgeContent={"Supabase React Query Project"}
+              url="https://supabase-reactquery-learning.netlify.app"
+            />
+            <div className=" bg-black dark:bg-white w-full p-1 rounded-xl my-4 shadow-md shadow-gray-500 dark:shadow-teal-500"></div>
             <ProjectCard
               imageSrc={usePopcorn}
               badgeContent="Open Movie Database API Project"
