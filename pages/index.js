@@ -7,6 +7,7 @@ import { useDarkMode } from "../context/DarkMode";
 import usePopcorn from "../public/usepopcorn.png";
 import pizzaproj from "../public/pizzaproj.png";
 import supabaseRQ from "../public/supabaseRQ.png";
+import carePulse from "../public/carepulseImage.png";
 
 import HeroSection from "../components/HeroSection";
 import ProjectCard from "../components/ProjectCard";
@@ -167,6 +168,11 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 px-2 m-2 lg:px-24 lg:mx-24">
+            <ProjectCard
+              imageSrc={carePulse}
+              badgeContent={"Next.js Appwrite Healthcare Project"}
+              url="https://carepulse-six.vercel.app/"
+            />
             <ProjectCard
               imageSrc={supabaseRQ}
               badgeContent={"Supabase React Query Project"}

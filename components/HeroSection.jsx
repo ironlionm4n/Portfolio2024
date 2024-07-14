@@ -27,8 +27,12 @@ const HeroSection = () => {
             </Link>
           </NavButton>
           <NavButton>
-            <a href="./resume.pdf" target="blank" download={false}>
-              Resume
+            <a
+              href="https://ironlionm4n.itch.io/"
+              target="blank"
+              download={false}
+            >
+              Play My Games
             </a>
           </NavButton>
         </ul>
